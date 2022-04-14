@@ -32,7 +32,7 @@ function render(words) {
                 change = true;
             }
         });
-                closeElem.classList.add('close');
+        closeElem.classList.add('close');
         card.classList.add('card');
 
         card.append(cardsWordElem, closeElem);
